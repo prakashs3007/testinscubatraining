@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="5" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[TestNG Assignment -> testRealdivide assertion passed for inputs 2, 4]]>
+    </line>
+  </reporter-output>
+  <suite name="Calc Testing" duration-ms="77" started-at="2020-07-01T23:22:16 GMT+03:00" finished-at="2020-07-01T23:22:17 GMT+03:00">
+    <groups>
+      <group name="realdiv">
+        <method signature="CalculatorTest.testRealdivide(int, int)[pri:0, instance:com.calculator.CalculatorTest@3a5ed7a6]" name="testRealdivide" class="com.calculator.CalculatorTest"/>
+      </group> <!-- realdiv -->
+    </groups>
+    <test name="Calc data" duration-ms="77" started-at="2020-07-01T23:22:16 GMT+03:00" finished-at="2020-07-01T23:22:17 GMT+03:00">
+      <class name="com.calculator.CalculatorTest">
+        <test-method status="PASS" signature="testRealdivide(int, int)[pri:0, instance:com.calculator.CalculatorTest@3a5ed7a6]" name="testRealdivide" duration-ms="15" started-at="2020-07-01T23:22:16 GMT+03:00" finished-at="2020-07-01T23:22:17 GMT+03:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG Assignment -> testRealdivide assertion passed for inputs 2, 4]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testRealdivide -->
+      </class> <!-- com.calculator.CalculatorTest -->
+    </test> <!-- Calc data -->
+  </suite> <!-- Calc Testing -->
+</testng-results>
